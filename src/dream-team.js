@@ -23,7 +23,7 @@ function createDreamTeam( members) {
   for(let i=0; i<members.length; i++)
     {
       let item=members[i];
-      if(Array.isArray(item) && (typeof item[0]=== string)) item=item[0];
+      //if(Array.isArray(item) && (typeof item[0]=== string)) item=item[0];
       if (typeof item !== 'string'  ) continue;
       let str=item.trim().toUpperCase();
       let tmp=str[0].match(/^[a-zA-Z]/);

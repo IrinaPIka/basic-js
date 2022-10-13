@@ -20,13 +20,13 @@ describe('Hanoi tower', () => {
     describe('base requirements', () => {
         it.optional('returns correct answer', () => {
             assert.deepEqual(calculateHanoi(5, 4074), { turns: 31, seconds: 27 });
-            assert.deepEqual(calculateHanoi(38, 4594), { turns: 274877906943, seconds: 215402800390 });
+             assert.deepEqual(calculateHanoi(38, 4594), { turns: 274877906943, seconds: 215402800390 });
             assert.deepEqual(calculateHanoi(34, 4005), { turns: 17179869183, seconds: 15442579040 });
             assert.deepEqual(calculateHanoi(19, 4770), { turns: 524287, seconds: 395688 });
             assert.deepEqual(calculateHanoi(23, 4344), { turns: 8388607, seconds: 6951884 });
             assert.deepEqual(calculateHanoi(9, 4347), { turns: 511, seconds: 423 });
             assert.deepEqual(calculateHanoi(15, 4254), { turns: 32767, seconds: 27729 });
-            assert.deepEqual(calculateHanoi(14, 4681), { turns: 16383, seconds: 12599 });
+           assert.deepEqual(calculateHanoi(14, 4681), { turns: 16383, seconds: 12599 });
             assert.deepEqual(calculateHanoi(9, 4308), { turns: 511, seconds: 427 });
             assert.deepEqual(calculateHanoi(18, 4442), { turns: 262143, seconds: 212452 });
             assert.deepEqual(calculateHanoi(10, 4159), { turns: 1023, seconds: 885 });
@@ -40,7 +40,7 @@ describe('Hanoi tower', () => {
             assert.deepEqual(calculateHanoi(48, 4040), { turns: 281474976710655, seconds: 250819286177811 });
             assert.deepEqual(calculateHanoi(7, 4090), { turns: 127, seconds: 111 });
             assert.deepEqual(calculateHanoi(43, 4431), { turns: 8796093022207, seconds: 7146453369430 });
-            assert.deepEqual(calculateHanoi(46, 4851), { turns: 70368744177663, seconds: 52221702543720 });
+           assert.deepEqual(calculateHanoi(46, 4851), { turns: 70368744177663, seconds: 52221702543720 });
             assert.deepEqual(calculateHanoi(13, 4333), { turns: 8191, seconds: 6805 });
             assert.deepEqual(calculateHanoi(20, 4693), { turns: 1048575, seconds: 804361 });
             assert.deepEqual(calculateHanoi(26, 4713), { turns: 67108863, seconds: 51260748 });

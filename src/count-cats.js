@@ -19,9 +19,15 @@ function countCats(matrix) {
   // remove line with error and write your code here
 
   let cats=0;
+  
 for(let i=0; i<matrix.length; i++)
 for(let j=0; j<matrix[i].length; j++)
 if(matrix[i][j]=='^^') cats++;
+
+//let result = matrix.reduce(function(a, b) {  return a.concat(b);}).reduce(function(a,b){ if(b=='^^') a++; },cats);
+
+//return  matrix.reduce(function(a, b) {return a.concat(b)}).filter(item=>item=='^^').length;
+
 return cats;
 
 }
